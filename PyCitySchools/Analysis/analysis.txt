@@ -1,0 +1,20 @@
+PyCitySchools Analysis
+
+The following is an analysis based upon careful review of the data provided for the pandas challenge, as completed in Jupyter notebook. 
+
+As instructed, I completed necessary calculations to summarize various metrics for the school district as a whole, which I subsequently organized into a dataframe entitled "district_summary."
+
+I then grouped the data by school name and performed calculations to summarize performance of each school in the district, which I housed in the dataframe entitled "per_school_summary." I sorted this frame by percentage overall passing in order to determine top 5 and bottom 5 performing schools in the district. Next, I sorted the data by student year to calculate math and reading scores by school and by grade level.
+
+I subsequently created bins to sort the schools by their budget per student, and created a new dataframe to summarize average scores based on budget per student. I created bins to sort the schools by their number of students, and created a new dataframe to summarize average scores based on the school size. 
+
+Finally, I divided the schools by their type (charter or district) and summarized average scores based on that figure.
+
+Several conclusions can be gleaned from the above transformations of school district data:
+- Contrary to my assumption, schools with lower per student spending reported better performance, with higher grades as well as more students passing core classes.
+
+- While small and medium schools presented comparable performance, students at large schools greatly underperformed, with on 58.3% of students passing core classes.
+
+- Charter schools greatly outperformed district schools.
+
+
